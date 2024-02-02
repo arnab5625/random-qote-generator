@@ -1,0 +1,42 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  color: white;
+  background-color: rgb(101, 126, 106);
+  border: 2px solid white;
+  border-radius: 1rem;
+  align-items: center;
+  margin-top: 100px;
+  
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(71, 65, 65);
+  
+}
+.quoteDisplay{
+  padding: 20px;
+  border: 2px solid blue;
+  margin: 10px;
+  border-radius: 1rem;
+  background-color: rgb(90, 47, 131);
+  width: auto;
+  height: 4rem;
+  min-width: 90%;
+}
+button{
+  margin: 15px;
+  font-size: 16px;
+  border: 1px solid black;
+  border-radius: 12px;
+  padding: 8px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: rgb(71, 65, 65);
+  color: white;
+  border: 1px solid white;
+}
